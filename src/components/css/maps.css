@@ -1,0 +1,165 @@
+.maps-main-body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.gmap {
+  height: 100vh;
+  width: 100%;
+}
+
+.loading {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.maps-body-gmap {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.maps-body {
+  width: 100%;
+  position: relative;
+}
+
+.maps-body-drawer {
+  width: 100%;
+  position: initial;
+}
+
+.map-drawer-body {
+  width: 100%;
+  position: initial;
+}
+
+.maps-search-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.maps-search-field-input {
+  border-radius: 50px;
+  padding: 7px 20px;
+  font-size: 20px;
+  width: 80%;
+}
+
+.basic-single {
+  width: 80%;
+}
+
+.latlngtry {
+  background-color: white;
+}
+
+.map-drawer {
+  background-color: white;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  border-top: solid;
+}
+
+.map-drawer-visible {
+  bottom: 0;
+}
+
+.map-drawer-hidden {
+  bottom: -30px;
+}
+
+.map-drawer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.map-drawer-title {
+  font-size: x-large;
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.puller {
+  height: 6px;
+  width: 30%;
+  background-color: rgb(179, 179, 179);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.directions-button{
+  color: white;
+  font-size: large;
+  width: fit-content;
+  padding: 10px;
+  background: blue;
+  border-radius: 50px;
+}
+
+.start-journey{
+  color: black;
+  font-size: large;
+  width: fit-content;
+  padding: 10px;
+  background: white;
+  border: solid 3px blue;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.drawer-goto-buttons{
+  display: flex;
+}
+
+.drawer-cards-main{
+  height: 70px;
+  border-top: solid grey 1px;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.drawer-cards-right{
+  padding-left: 10px;
+}
+
+.drawer-cards-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.drawer-cards-right-instructions{
+  font-size: large;
+}
+
+.bus-num{
+  font-weight: bold;
+  background-color: rgba(189, 189, 189, 0.733);
+  border-radius: 5px;
+  padding: 2px 5px;
+}
